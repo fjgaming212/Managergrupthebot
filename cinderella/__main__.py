@@ -32,7 +32,7 @@ PM_START_TEXT = """
 _Hallo_ *{}* 🙋‍♂
 Nama saya adalah *{}*\nBot Pro Telegram yang Kuat untuk Mengelola Grup Anda, jangan ragu untuk menambahkan ke grup Anda !!
 ━━━━━━━━━━━━━━━━━━━━
-_Dikelola Oleh_ [Yunus Zend](Https://t.me/ZendYNS) 💻
+_Dikelola Oleh_ [Rizzz](Https://t.me/FJ_GAMING) 💻
 
 ࿇Tambahkan saya ke group mu dan jadikan saya *admin!!* 🧑‍💻
 
@@ -64,8 +64,8 @@ def vercheck() -> str:
 
 
 SOURCE_STRING = """
-⚡Bot ini bisa memutar musik di VCG GROUP atau panggilan suara grup Anda [Klik Disini](Https://t.me/MightyMusic_bot)
-⚡Kamu bisa menggunakan saya [klik Disini](Https://t.me/MightyMusic_bot)
+⚡Bot ini bisa memutar musik di VCG GROUP atau panggilan suara grup Anda [Klik Disini](Https://t.me/boot_Musicbot)
+⚡Kamu bisa menggunakan saya [klik Disini](Https://t.me/Boot_Musicbot)
 """
 
 
@@ -185,7 +185,7 @@ def send_start(bot, update):
     first_name = update.effective_user.first_name 
     text = PM_START_TEXT
 
-    keyboard = [[InlineKeyboardButton(text="🔉 Help",callback_data="help_back"),InlineKeyboardButton(text="💻 Creator 💻",url="https://t.me/ZendYNS")]]
+    keyboard = [[InlineKeyboardButton(text="🔉 Help",callback_data="help_back"),InlineKeyboardButton(text="💻 Creator 💻",url="https://t.me/FJ_GAMING")]]
     keyboard += [[InlineKeyboardButton(text="💭 Group Support",url="Https://t.me/KingUserbotSupport"),InlineKeyboardButton(text="➕ Tambah Saya ➕",url="t.me/{}?startgroup=true".format(bot.username))]]
 
     update.effective_message.reply_photo(img, PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_NAME, OWNER_ID), 
@@ -287,7 +287,7 @@ def get_help(bot: Bot, update: Update):
         update.effective_message.reply_text("Contact me in PM to get the list of possible commands.",
                                             reply_markup=InlineKeyboardMarkup(
                                                 [[InlineKeyboardButton(text="🔉 Help",url="t.me/{}?start=help".format(bot.username))],  
-                                                [InlineKeyboardButton(text="🛡 Contact Creator",url="https://t.me/ZendYNS")]]))
+                                                [InlineKeyboardButton(text="🛡 Contact Creator",url="https://t.me/FJ_GAMING")]]))
         return
 
     elif len(args) >= 2 and any(args[1].lower() == x for x in HELPABLE):
