@@ -59,16 +59,16 @@
       },      
       "OWNER_ID": {
          "description": "ID kamu sebagai pemilik sekaligus pembuat.",
-         "value": "1118936839"
+         "value": "1514078508"
       },
       "OWNER_NAME": {
          "description": "Nama kamu",
-         "value": "Yunus Zend"
+         "value": "Fariz"
       },
       "DEV_USERS": {
          "description": "ID untuk users who are Dev (can use /py etc.)",
          "required": false,
-         "value": "1118936839"
+         "value": "1514078508"
       },
       "CASH_API_KEY": {
          "description": "Diperlukan untuk currency converter",
@@ -108,12 +108,12 @@
       "SUDO_USERS": {
          "description": "Daftar ID pengguna yang dipisahkan spasi yang ingin Anda tetapkan sebagai pengguna sudo.",
          "required": false,
-         "value": "1118936839"
+         "value": "1514078508"
       },
       "SUPPORT_USERS": {
          "description": "Daftar ID pengguna yang dipisahkan spasi yang ingin Anda tetapkan sebagai pengguna dukungan (khusus gban perms).",
          "required": false,
-         "value": "1118936839"
+         "value": "1514078508"
       },
      
       "TOKEN": {
@@ -134,7 +134,7 @@
       "WHITELIST_USERS": {
          "description": "Daftar ID pengguna yang dipisahkan spasi yang ingin Anda tetapkan sebagai daftar putih - tidak dapat diblokir dengan bot Anda.",
          "required": false,
-         "value": "1118936839"
+         "value": "1514078508"
       },
       "WALL_API":{
          "description": "Kirim wall api",
