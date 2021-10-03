@@ -27,7 +27,7 @@ from cinderella.modules.connection import connect_button
 
 
 PM_START_TEXT = """
-*┗┓| MIGHTY HELPER GROUP | ┏┛*
+*┗┓| MANAGER GROUP BOT | ┏┛*
 
 _Hallo_ *{}* 🙋‍♂
 Nama saya adalah *{}*\nBot Pro Telegram yang Kuat untuk Mengelola Grup Anda, jangan ragu untuk menambahkan ke grup Anda !!
