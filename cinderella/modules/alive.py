@@ -17,4 +17,3 @@ async def awake(event):
   SKYZU += f"🍁 Pyrogram Version : 1.5 \n\n"
   SKYZU += "**Thanks For Adding Me Here ❤️**"
   BUTTON = [[Button.url("ʜᴇʟᴘ", "https://t.me/Yagura_Managerbot?start=help"), Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/Gen_Project_Support")]]
-  await tbot.send_file(event.chat_id, PHOTO)
