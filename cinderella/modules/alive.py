@@ -4,7 +4,6 @@ import os
 from telethon import events, Button
 from telethon import version as tlhver
 from cinderella.events import register
-from cinderella import telethon as tbot
 
 PHOTO = "https://telegra.ph/file/0fa4ac715b5cf0c76dc27.jpg"
 
