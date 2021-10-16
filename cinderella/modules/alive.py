@@ -3,8 +3,8 @@ import os
 
 from telethon import events, Button
 from telethon import version as tlhver
-from innexiaBot.events import register
-from innexiaBot import telethn as tbot
+from cinderella.events import register
+from cinderella import telethn as tbot
 
 PHOTO = "https://telegra.ph/file/0fa4ac715b5cf0c76dc27.jpg"
 
